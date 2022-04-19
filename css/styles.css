@@ -102,6 +102,26 @@ nav ul li a{
     margin-left: 60px;
     margin-right: 20px;
 }
+.link{
+    margin-block: 2px;
+    position: relative;
+}
+.link::after{
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #ffcb74;
+    border-radius: 4px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .25s ease;
+}
+.link:hover::after{
+    transform: scaleX(1);
+}
 
 /*Estilos Footer*/
 
@@ -142,6 +162,8 @@ footer h2{
     width: 300px;
     margin: 10px;
     padding: 5px;
+    text-transform: uppercase;
+    line-height: 50px;
 }
 .info2Img{
     height: 30px;
@@ -176,6 +198,29 @@ main section div button a{
     background-image: url(../img/fondo.jpg);
     background-size: cover;
     grid-area: header;
+}
+.letras{
+    display: block;
+    opacity: 0;
+    animation: revelarTexto .5s forwards;
+}
+.letras1{
+    animation-delay: .175s;
+}
+.letras2{
+    animation-delay: .25s;
+}
+.letras3{
+    animation-delay: .325s;
+}
+@keyframes revelarTexto{
+    from{
+        transform: translateY(20px);
+    }
+    to{
+        opacity: 1;
+        transform: none;
+    }
 }
 
 /*Estilo letras*/
