@@ -519,7 +519,6 @@ main article form input[type="reset"]{
     }
     .cajaFormulario2{
         flex-wrap: wrap;
-        width: 90%;
     }
     .cajaFormulario-texto{
         width: 100%;
