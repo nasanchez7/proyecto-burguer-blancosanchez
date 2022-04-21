@@ -102,6 +102,10 @@ nav ul li a{
     margin-left: 60px;
     margin-right: 20px;
 }
+nav ul li a:hover{
+    text-decoration: none;
+    color: #f6f6f6;
+}
 .link{
     margin-block: 2px;
     position: relative;
@@ -125,6 +129,10 @@ nav ul li a{
 
 /*Estilos Footer*/
 
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
 .pieDePagina{
     background-color: #37373713;
     display: flex;
