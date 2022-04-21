@@ -27,7 +27,7 @@
         .contenedorFormulario{
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
-            grid-template-rows: 100px 450px 100px;
+            grid-template-rows: 100px auto 100px;
             grid-template-areas: "nav nav nav"
                                  "form form form"
                                  "footer footer footer";
@@ -335,10 +335,25 @@ main h1{
 
 .formulario{
     width: 500px;
-    height: 480px;
+    height: 490px;
     background-color: #37373713;
     text-align: center;
     border-radius: 30px;
+}
+.formulario h1{
+    font-weight: 1000;
+    margin-bottom: 0;    
+}
+.cajaFormulario-texto h2{
+    font-weight: 1000;
+    margin-bottom: 0;
+}
+.cajaFormulario-texto h3{
+    font-weight: 1000;
+    margin-bottom: 0;
+}
+.formulario textarea{
+    height: 100px;
 }
 .formulario2{
     width: 500px;
@@ -433,6 +448,9 @@ main article form input[type="reset"]{
     border-radius: 15px;
     background-color: #ffcc7400;
     border-color: #f6f6f6;
+}
+.btn{
+    margin: 5px;
 }
 
 /* Grillas Mobile*/ 
