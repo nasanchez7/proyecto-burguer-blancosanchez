@@ -32,14 +32,6 @@
                                  "form form form"
                                  "footer footer footer";
         }
-        .contenedorLocales{
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            grid-template-rows: 100px auto 100px;
-            grid-template-areas: "nav nav nav"
-                                 "locales locales locales"
-                                 "footer footer footer";
-        }
         .contenedorTrabaja{
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
@@ -490,14 +482,6 @@ main article form input[type="reset"]{
                              "form form"
                              "footer footer";
     }
-    .contenedorLocales{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 150px auto 350px;
-        grid-template-areas: "nav nav"
-                             "locales locales"
-                             "footer footer";
-    }
     .contenedorTrabaja{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -596,9 +580,11 @@ main article form input[type="reset"]{
 
     .formulario{
         height: 525px;
+        margin: 10px;
     }
     .formulario2{
-        height: 635px;
+        height: 570px;
+        margin: 10px;
     }
     .cajaFormulario{
         flex-wrap: wrap;
@@ -609,6 +595,7 @@ main article form input[type="reset"]{
     .cajaFormulario-texto{
         width: 100%;
         font-size: 1rem;
+        margin: 10px;
     }
     .estilo7{
         font-size: 40px;
