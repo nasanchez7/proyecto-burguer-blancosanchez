@@ -1,0 +1,62 @@
+/*Estilos barra de navegacion*/
+
+.barra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    grid-area: nav;
+    .items{
+        display: flex;
+    }
+    .logo{
+        width: 180px;
+        padding: 5px;
+    }
+    .tamañoImg{
+        width: 100%;
+    }
+    .listaMobile{
+        display: none;
+    }
+    .items ul li{
+        display: inline-block;
+        padding-left: 60px;
+        margin-right: 15px;
+    }
+    ul{
+        list-style-type: none;
+    }
+    ul li a{
+        text-decoration: none;
+        color: #f6f6f6;
+        font-family: "fuente1";
+        font-size: 22px;
+        margin-left: 60px;
+        margin-right: 20px;
+    }
+    ul li a:hover{
+        text-decoration: none;
+        color: #f6f6f6;
+    }
+    .link{
+        margin-block: 2px;
+        position: relative;
+    }
+    .link::after{
+        content: "";
+        width: 100%;
+        height: 1px;
+        background-color: #ffcb74;
+        border-radius: 4px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform .25s ease;
+    }
+    .link:hover::after{
+        transform: scaleX(1);
+    }
+}

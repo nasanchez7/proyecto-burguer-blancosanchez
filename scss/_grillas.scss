@@ -1,0 +1,36 @@
+/* Grillas  Desktop*/
+
+.contenedorPagina{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 600px auto 100px;
+    grid-template-areas: "nav nav nav"
+                        "header header header"
+                        "info info info"
+                        "footer footer footer";
+}
+
+.contenedorCarta{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px auto 100px;
+    grid-template-areas: "nav nav nav"
+                         "carta carta carta"
+                         "footer footer footer";
+}
+.contenedorFormulario{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px auto 100px;
+    grid-template-areas: "nav nav nav"
+                         "form form form"
+                         "footer footer footer";
+}
+.contenedorTrabaja{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 100px auto 100px;
+    grid-template-areas: "nav nav nav"
+                         "trabaja trabaja trabaja"
+                         "footer footer footer";
+}

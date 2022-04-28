@@ -1,0 +1,53 @@
+/* Estilos Header */
+
+.info{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    grid-area: header;
+    .info-burguer{
+        width: 600px;
+        img{
+            &:hover{
+                transform: scale(1.1);
+                transition: 6s;
+            }
+        }
+    }
+    .info-burguer-tamaño{
+        width: 100%;
+    }
+    .info-letras{
+        width: 300px;
+        margin: 10px;
+        padding: 5px;
+        text-transform: uppercase;
+        line-height: 50px;
+    }
+    .letras{
+        display: block;
+        opacity: 0;
+        animation: revelarTexto .5s forwards;
+    }
+    .letras1{
+        animation-delay: .175s;
+    }
+    .letras2{
+        animation-delay: .25s;
+    }
+    .letras3{
+        animation-delay: .325s;
+    }
+    @keyframes revelarTexto{
+        from{
+            transform: translateY(20px);
+        }
+        to{
+            opacity: 1;
+            transform: none;
+        }
+    }
+}

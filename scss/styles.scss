@@ -1,0 +1,28 @@
+@import "_variables";
+@import "_botones";
+@import "_grillas";
+@import "_fuentes";
+@import "_nav";
+@import "_header";
+@import "_main";
+@import "_footer";
+@import "_mobile";
+
+/*Estilos generales*/
+
+body{
+    background-color: $colorfondo;
+}
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
