@@ -123,7 +123,7 @@
         .listaMobile > li{
             float: left;
         }
-        .listaMobile li:hover > ul{
+        .listaMobile li:active > ul{
             display: block;
         }
     }

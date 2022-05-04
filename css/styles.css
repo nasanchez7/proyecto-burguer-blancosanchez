@@ -690,7 +690,7 @@
   .barra .listaMobile > li {
     float: left;
   }
-  .barra .listaMobile li:hover > ul {
+  .barra .listaMobile li:active > ul {
     display: block;
   }
   /* Estilos Contacto mobile*/
