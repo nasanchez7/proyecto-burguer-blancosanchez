@@ -683,21 +683,21 @@
     padding: 5px;
     border-radius: 5px;
   }
-  .barra .listaMobile > li {
-    float: left;
-  }
   .barra .listaMobile li ul {
     display: none;
     position: absolute;
-  }
-  .barra .listaMobile li:hover > ul {
-    display: block;
   }
   .barra .listaMobile h3 {
     color: #f6f6f6;
     font-family: "fuente2";
     font-size: 30px;
     margin: 50px;
+  }
+  .barra .listaMobile > li {
+    float: left;
+  }
+  .barra .listaMobile li:hover > ul {
+    display: block;
   }
   /* Estilos Contacto mobile*/
   .cajaFormulario {
