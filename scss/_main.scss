@@ -17,6 +17,9 @@
     .posicionBoton{
         text-align: center;
         margin-top: 50px;
+        button{
+            @extend .estiloBoton3;
+        }
     }
     .info2{
         background-color: rgba(55, 55, 55, 0.04);
