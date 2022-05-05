@@ -2,15 +2,6 @@
 
 .contenidoPrincipal{
     grid-area: info;
-    .info2Img{
-        height: 30px;
-        width: 30px;
-    }
-    .info2Posicion{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
     section div button a{
         text-decoration: none;
     }
@@ -22,12 +13,16 @@
         }
     }
     .info2{
-        background-color: rgba(55, 55, 55, 0.04);
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 30px;
-        margin-bottom: 30px;
+        @include propiedadesInfo (rgba(55, 55, 55, 0.04),flex,space-between,center,30px,30px);
+        .info2Posicion{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .info2Img{
+                height: 30px;
+                width: 30px;
+            }
+        }
     }
     .tituloCaja{
         text-align: center;

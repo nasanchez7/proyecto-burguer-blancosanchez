@@ -273,17 +273,6 @@
   grid-area: info;
 }
 
-.contenidoPrincipal .info2Img {
-  height: 30px;
-  width: 30px;
-}
-
-.contenidoPrincipal .info2Posicion {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .contenidoPrincipal section div button a {
   text-decoration: none;
 }
@@ -300,6 +289,17 @@
   align-items: center;
   padding: 30px;
   margin-bottom: 30px;
+}
+
+.contenidoPrincipal .info2 .info2Posicion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contenidoPrincipal .info2 .info2Posicion .info2Img {
+  height: 30px;
+  width: 30px;
 }
 
 .contenidoPrincipal .tituloCaja {
