@@ -439,12 +439,12 @@
   width: 600px;
 }
 
-.cajaFormulario .cajaFormulario-texto h2 {
+.cajaFormulario .cajaFormulario-texto h1 {
   font-weight: 1000;
   margin-bottom: 0;
 }
 
-.cajaFormulario .cajaFormulario-texto h3 {
+.cajaFormulario .cajaFormulario-texto h2 {
   font-weight: 1000;
   margin-bottom: 0;
 }
@@ -457,7 +457,7 @@
   border-radius: 30px;
 }
 
-.cajaFormulario .formulario h1 {
+.cajaFormulario .formulario h3 {
   font-weight: 1000;
   margin-bottom: 0;
 }
@@ -498,33 +498,14 @@
   width: 600px;
 }
 
+.cajaFormulario2 .cajaFormulario-texto h1 {
+  font-weight: 1000;
+  margin-bottom: 0;
+}
+
 .cajaFormulario2 .cajaFormulario-texto h2 {
   font-weight: 1000;
   margin-bottom: 0;
-}
-
-.cajaFormulario2 .cajaFormulario-texto h3 {
-  font-weight: 1000;
-  margin-bottom: 0;
-}
-
-.cajaFormulario2 .formularioOrden {
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-}
-
-.cajaFormulario2 .formularioOrden input {
-  width: 100%;
-}
-
-.cajaFormulario2 .formulario2 h1 {
-  font-weight: 1000;
-  margin-bottom: 0;
-}
-
-.cajaFormulario2 .formulario2 textarea {
-  height: 100px;
 }
 
 .cajaFormulario2 .formulario2 {
@@ -533,6 +514,25 @@
   background-color: #37373713;
   text-align: center;
   border-radius: 30px;
+}
+
+.cajaFormulario2 .formulario2 h3 {
+  font-weight: 1000;
+  margin-bottom: 0;
+}
+
+.cajaFormulario2 .formulario2 textarea {
+  height: 100px;
+}
+
+.cajaFormulario2 .formulario2 .formularioOrden {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.cajaFormulario2 .formulario2 .formularioOrden input {
+  width: 100%;
 }
 
 /* Main Sucursales*/
