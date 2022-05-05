@@ -1,0 +1,8 @@
+@mixin  propiedadesInfo ($bg-color,$display,$justificado,$alineamiento,$padding,$margenSuperior){
+    background-color: $bg-color;
+    display: $display;
+    justify-content: $justificado;
+    align-items: $alineamiento;
+    padding: $padding;
+    margin-bottom: $margenSuperior;
+}
