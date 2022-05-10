@@ -1,0 +1,27 @@
+{
+  "name": "hamburgueseria-blancosanchez",
+  "version": "1.0.0",
+  "description": "Hamburgerseria Nadir Burgers, la mejor de Buenos Aires",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/styles.scss css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nasanchez7/proyecto-burguer-blancosanchez.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nasanchez7/proyecto-burguer-blancosanchez/issues"
+  },
+  "homepage": "https://github.com/nasanchez7/proyecto-burguer-blancosanchez#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
