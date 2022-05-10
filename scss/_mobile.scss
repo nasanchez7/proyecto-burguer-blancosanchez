@@ -103,21 +103,23 @@
         .listaMobile{
                 display: unset;
                 i{
-                    color: #f6f6f6;
+                    color: $colorPrimario;
                     font-size: 35px;
                     margin-left: 30px;
                 }
                 li a{
-                    background-color: #ffcb74;
-                    color: #111111;
+                    background-color: $colorSecundario;
+                    color: $colorTerciario;
                     font-family: "fuente2";
                     margin: 10px;
-                    padding: 5px;
+                    padding: 3px;
                     border-radius: 5px;
+                    text-decoration: none;
                 }
                 li ul{
                     display: none;
                     position: absolute;
+                    list-style-type: none;
                 }
         }
         .listaMobile > li{
@@ -155,18 +157,18 @@
             width: 100%;
             font-size: 1rem;
             margin: 10px;
+            .estilo7{
+                font-size: 40px;
+            }
+            .estilo8{
+                font-size: 1.5rem;
+            }
         }
     }
-    .estilo7{
-        font-size: 40px;
-    }
-    .estilo8{
-        font-size: 1.5rem;
-    }
+}
 
     /* Estilo sucursales mobile */
 
     .sucursales iframe{
         width: 100%;
     }
-}

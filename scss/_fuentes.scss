@@ -13,44 +13,44 @@
 
 .estilo1{
     font-family: "fuente2";
-    color: #f6f6f6;
+    color: $colorPrimario;
     font-size: 43px;
 }
 .estilo2{
     font-family: "fuente1";
-    color: #ffcb74;
+    color: $colorSecundario;
     font-size: 43px;
 }
 .estilo3{
     font-family: "fuente2";
-    color: #f6f6f6;
+    color: $colorPrimario;
 }
 .estilo4{
     font-family: "fuente1";
     font-size: 30px;
-    color: #f6f6f6;
+    color: $colorPrimario;
 }
 .estilo5{
-    color: #ffcb74;
+    color: $colorSecundario;
     font-family: "fuente2";
     font-size: 25px;
 }
 .estilo7{
-    color: #ffcb74;
+    color: $colorSecundario;
     font-family: "fuente1";
     font-size: 50px;
 }
 .estilo8{
-    color: #f6f6f6;
+    color: $colorPrimario;
     font-family: "fuente2";
     font-size: 30px;
 }
 .estilo9{
-    color: #f6f6f6;
+    color: $colorPrimario;
     font-family: "fuente2";
 }
 .estilo10{
-    color: #f6f6f6;
+    color: $colorPrimario;
     font-family: "fuente2";
     text-decoration: none;
 }
