@@ -546,6 +546,10 @@
   margin: 10px;
 }
 
+.tamañoSucursales .sucursales iframe {
+  width: 100%;
+}
+
 .tamañoSucursales .sucursales button a {
   text-decoration: none;
   color: black;
@@ -716,11 +720,10 @@
   .cajaFormulario2 .cajaFormulario-texto .estilo8 {
     font-size: 1.5rem;
   }
-}
-
-/* Estilo sucursales mobile */
-.sucursales iframe {
-  width: 100%;
+  /* Estilo sucursales mobile */
+  .sucursales iframe {
+    width: 100%;
+  }
 }
 
 /* Mobile*/
@@ -863,11 +866,10 @@
   .cajaFormulario2 .cajaFormulario-texto .estilo8 {
     font-size: 1.5rem;
   }
-}
-
-/* Estilo sucursales Mobile */
-.sucursales iframe {
-  width: 100%;
+  /* Estilo sucursales Mobile */
+  .sucursales iframe {
+    width: 100%;
+  }
 }
 
 /*Estilos generales*/
