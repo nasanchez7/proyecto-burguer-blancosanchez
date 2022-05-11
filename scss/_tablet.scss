@@ -1,6 +1,6 @@
-/* Mobile*/ 
+/* Tablet */
 
-@media (max-width: 480px){
+@media (max-width: 768px){
     .contenedorPagina{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -35,14 +35,14 @@
                              "footer footer";
     }
     
-    /* Estilos Header y main Mobile */
+    /* Estilos Header y main tablet */
 
     .info{
         flex-wrap: wrap;
         height: 650px;
         flex-direction: row;
         .info-burguer{
-            width: 300px;
+            width: 450px;
         }
         .comboTamaño{
             width: 100%;
@@ -71,7 +71,7 @@
         }
     }
     
-    /*Estilos Carta Mobile*/
+    /*Estilos Carta tablet*/
 
     .carta{
         .cajas{
@@ -81,7 +81,7 @@
     }
   
 
-    /* Estilos Footer Mobile*/
+    /* Estilos Footer tablet*/
 
     .pieDePagina{
         flex-direction: column;
@@ -89,7 +89,7 @@
         height: 350px;
     }
 
-    /* Estilos Navegacion Mobile */
+    /* Estilos Navegacion tablet */
 
     .barra{
         justify-content: center;
@@ -130,7 +130,7 @@
         }
     }
 
-    /* Estilos Contacto Mobile*/
+    /* Estilos Contacto tablet*/
 
     .cajaFormulario{
         flex-wrap: wrap;
@@ -145,7 +145,7 @@
         }
     }
 
-    /* Estilos Trabaja con nosotros mobile*/
+    /* Estilos Trabaja con nosotros tablet*/
 
     .cajaFormulario2{
         flex-wrap: wrap;
@@ -167,7 +167,7 @@
     }
 }
 
-    /* Estilo sucursales Mobile */
+    /* Estilo sucursales mobile */
 
     .sucursales iframe{
         width: 100%;

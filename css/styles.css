@@ -576,8 +576,8 @@
   width: 150px;
 }
 
-/* Mobile*/
-@media (max-width: 480px) {
+/* Tablet */
+@media (max-width: 768px) {
   .contenedorPagina {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -602,14 +602,14 @@
     grid-template-rows: 150px auto 350px;
     grid-template-areas: "nav nav" "trabaja trabaja" "footer footer";
   }
-  /* Estilos Header y main Mobile */
+  /* Estilos Header y main tablet */
   .info {
     flex-wrap: wrap;
     height: 650px;
     flex-direction: row;
   }
   .info .info-burguer {
-    width: 250px;
+    width: 450px;
   }
   .info .comboTamaño {
     width: 100%;
@@ -634,18 +634,18 @@
     margin-top: 40px;
     margin-bottom: 20px;
   }
-  /*Estilos Carta*/
+  /*Estilos Carta tablet*/
   .carta .cajas {
     flex-wrap: wrap;
     justify-content: center;
   }
-  /* Estilos Footer mobile*/
+  /* Estilos Footer tablet*/
   .pieDePagina {
     flex-direction: column;
     align-items: center;
     height: 350px;
   }
-  /* Estilos Navegacion mobile */
+  /* Estilos Navegacion tablet */
   .barra {
     justify-content: center;
     height: 130px;
@@ -684,7 +684,7 @@
   .barra .listaMobile li:hover > ul {
     display: block;
   }
-  /* Estilos Contacto mobile*/
+  /* Estilos Contacto tablet*/
   .cajaFormulario {
     flex-wrap: wrap;
   }
@@ -697,7 +697,7 @@
     font-size: 1rem;
     margin: 10px;
   }
-  /* Estilos Trabaja con nosotros*/
+  /* Estilos Trabaja con nosotros tablet*/
   .cajaFormulario2 {
     flex-wrap: wrap;
   }
@@ -719,6 +719,153 @@
 }
 
 /* Estilo sucursales mobile */
+.sucursales iframe {
+  width: 100%;
+}
+
+/* Mobile*/
+@media (max-width: 480px) {
+  .contenedorPagina {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 150px auto auto 350px;
+    grid-template-areas: "nav nav" "header header" "info info" "footer footer";
+  }
+  .contenedorCarta {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 150px auto 350px;
+    grid-template-areas: "nav nav" "carta carta" "footer footer";
+  }
+  .contenedorFormulario {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 150px auto 350px;
+    grid-template-areas: "nav nav" "form form" "footer footer";
+  }
+  .contenedorTrabaja {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 150px auto 350px;
+    grid-template-areas: "nav nav" "trabaja trabaja" "footer footer";
+  }
+  /* Estilos Header y main Mobile */
+  .info {
+    flex-wrap: wrap;
+    height: 650px;
+    flex-direction: row;
+  }
+  .info .info-burguer {
+    width: 300px;
+  }
+  .info .comboTamaño {
+    width: 100%;
+  }
+  .info .info-letras {
+    width: 500px;
+  }
+  .info div button {
+    margin-bottom: 10px;
+  }
+  .contenidoPrincipal .cajas {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .contenidoPrincipal .cajas .caja {
+    width: 300px;
+  }
+  .contenidoPrincipal .info2 {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  /*Estilos Carta Mobile*/
+  .carta .cajas {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  /* Estilos Footer Mobile*/
+  .pieDePagina {
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+  }
+  /* Estilos Navegacion Mobile */
+  .barra {
+    justify-content: center;
+    height: 130px;
+  }
+  .barra .items {
+    display: none;
+  }
+  .barra .logo {
+    width: 150px;
+  }
+  .barra .listaMobile {
+    display: unset;
+  }
+  .barra .listaMobile i {
+    color: #f6f6f6;
+    font-size: 35px;
+    margin-left: 30px;
+  }
+  .barra .listaMobile li a {
+    background-color: #ffcb74;
+    color: #111111;
+    font-family: "fuente2";
+    margin: 10px;
+    padding: 3px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  .barra .listaMobile li ul {
+    display: none;
+    position: absolute;
+    list-style-type: none;
+  }
+  .barra .listaMobile > li {
+    float: left;
+  }
+  .barra .listaMobile li:hover > ul {
+    display: block;
+  }
+  /* Estilos Contacto Mobile*/
+  .cajaFormulario {
+    flex-wrap: wrap;
+  }
+  .cajaFormulario .formulario {
+    height: 530px;
+    margin: 10px;
+  }
+  .cajaFormulario .cajaFormulario-texto {
+    width: 100%;
+    font-size: 1rem;
+    margin: 10px;
+  }
+  /* Estilos Trabaja con nosotros mobile*/
+  .cajaFormulario2 {
+    flex-wrap: wrap;
+  }
+  .cajaFormulario2 .formulario2 {
+    height: 620px;
+    margin: 10px;
+  }
+  .cajaFormulario2 .cajaFormulario-texto {
+    width: 100%;
+    font-size: 1rem;
+    margin: 10px;
+  }
+  .cajaFormulario2 .cajaFormulario-texto .estilo7 {
+    font-size: 40px;
+  }
+  .cajaFormulario2 .cajaFormulario-texto .estilo8 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Estilo sucursales Mobile */
 .sucursales iframe {
   width: 100%;
 }
