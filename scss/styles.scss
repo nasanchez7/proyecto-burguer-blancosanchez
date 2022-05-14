@@ -5,6 +5,7 @@
 }
 
 @import "_variables";
+@import "_generales";
 @import "_mixin";
 @import "_botones";
 @import "_grillas";
@@ -15,15 +16,6 @@
 @import "_footer";
 @import "_mobile";
 
-/*Estilos generales*/
-
-body{
-    background-color: $colorfondo;
-}
-.container-fluid{
-    margin: 0;
-    padding: 0;
-}
 
 
 

@@ -111,7 +111,6 @@
                     background-color: $colorSecundario;
                     color: $colorTerciario;
                     font-family: "fuente2";
-                    margin: 10px;
                     padding: 3px;
                     border-radius: 5px;
                     text-decoration: none;
@@ -150,7 +149,6 @@
     .cajaFormulario2{
         flex-wrap: wrap;
         .formulario2{
-            height: 620px;
             margin: 10px;
         }
         .cajaFormulario-texto{
@@ -284,7 +282,7 @@
                     font-size: 35px;
                     margin-left: 30px;
                 }
-                li a{
+                li li{
                     background-color: $colorSecundario;
                     color: $colorTerciario;
                     font-family: "fuente2";
@@ -293,9 +291,15 @@
                     border-radius: 5px;
                     text-decoration: none;
                 }
+                li a{
+                    display: block;
+                    color: $colorTerciario;
+                    font-family: "fuente2";
+                }
                 li ul{
                     display: none;
                     position: absolute;
+                    left: 0;
                     list-style-type: none;
                 }
         }
@@ -303,7 +307,10 @@
             float: left;
         }
         .listaMobile li:hover > ul{
-            display: block;
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
         }
     }
 
@@ -319,6 +326,9 @@
             width: 100%;
             font-size: 1rem;
             margin: 10px;
+            h1{
+                font-size: 30px;
+            }
         }
     }
 
@@ -327,7 +337,6 @@
     .cajaFormulario2{
         flex-wrap: wrap;
         .formulario2{
-            height: 620px;
             margin: 10px;
         }
         .cajaFormulario-texto{

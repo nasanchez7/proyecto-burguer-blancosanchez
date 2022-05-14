@@ -18,6 +18,9 @@
     }
     .listaMobile{
         display: none;
+        .itemsMobile{
+            list-style: none;
+        }
     }
     .items{
         list-style-type: none;
